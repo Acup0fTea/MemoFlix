@@ -44,7 +44,7 @@ const RequestForm = () => {
 
   return (
     <Box sx={{ ...uiConfigs.style.mainContent, display: 'flex', justifyContent: 'center' }}>
-      <Container header="Send report">
+      <Container header="Send request">
         <Box component="form" maxWidth="600px" onSubmit={form.handleSubmit}>
           <Stack spacing={2}>
             <TextField

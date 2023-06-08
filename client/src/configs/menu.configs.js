@@ -48,7 +48,7 @@ const user = [
     state: "reviews"
   },
   {
-    display: "report",
+    display: "request",
     path: "/request",
     icon: <ForwardToInboxIcon />,
     state: "request"
